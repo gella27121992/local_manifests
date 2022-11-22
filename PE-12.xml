@@ -31,5 +31,5 @@
     <!-- Dependenciens -->
     <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="LineageOS"   revision="lineage-19.1" />
     <project name="hardware_samsung"                     path="hardware/samsung"             remote="PE-source"   revision="twelve" />
-    <project name="android_vendor_gapps"                 path="vendor/gapps"                 remote="Orel6505-gitlab"   revision="12.1-priv" />
+    <!--<project name="android_vendor_gapps"                 path="vendor/gapps"                 remote="Orel6505-gitlab"   revision="12.1-priv" />-->
 </manifest>
