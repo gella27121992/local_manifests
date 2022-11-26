@@ -10,6 +10,7 @@
     <remote name="PE-devices" fetch="https://github.com/PixelExperience-Devices" />
     <remote name="PE-blobs"   fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
     <remote name="PE-source"  fetch="https://github.com/PixelExperience" />
+    <remote name="Gella27121992"  fetch="https://github.com/gella27121992" />
 
 
     <!--Device Tree - you can track from LineageOS if you want-->
@@ -30,5 +31,5 @@
     
     <!-- Dependenciens -->
     <project name="android_device_samsung_slsi_sepolicy"   path="device/samsung_slsi/sepolicy"     remote="LineageOS"   revision="lineage-20" />
-    <project name="android_hardware_samsung"               path="hardware/samsung"                 remote="Linux4"      revision="lineage-20.0" />
+    <project name="android_hardware_samsung"               path="hardware/samsung"                 remote="Gella27121992"      revision="lineage-20.0" />
 </manifest>
