@@ -2,7 +2,6 @@
 <manifest>
 	
     <!--removes-->
-    <remove-project name="vendor/gapps" />
 	
     <!--remotes -->
     <remote name="Orel6505"   fetch="https://github.com/Orel6505" />
