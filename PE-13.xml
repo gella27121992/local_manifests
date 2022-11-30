@@ -16,14 +16,16 @@
 
 
     <!--Device Tree - you can track from LineageOS if you want-->
-  <project name="android_device_samsung_beyond0lte"        path="device/samsung/beyond0lte"        remote="LineageOS"  revision="lineage-20" />
+	<project name="android_device_samsung_d1"                path="device/samsung/d1"                remote="Gella27121992"  revision="lineage-20" />
+	<!--
+        <project name="android_device_samsung_beyond0lte"        path="device/samsung/beyond0lte"        remote="LineageOS"  revision="lineage-20" />
 	<project name="android_device_samsung_beyond1lte"        path="device/samsung/beyond1lte"        remote="LineageOS"  revision="lineage-20" />
 	<project name="android_device_samsung_beyond2lte"        path="device/samsung/beyond2lte"        remote="LineageOS"  revision="lineage-20" />
 	<project name="android_device_samsung_beyondx"           path="device/samsung/beyondx"           remote="LineageOS"  revision="lineage-20" />
-	<project name="android_device_samsung_d1"                path="device/samsung/d1"                remote="LineageOS"  revision="lineage-20" />
+	
 	<project name="android_device_samsung_d2s"               path="device/samsung/d2s"               remote="LineageOS"  revision="lineage-20" />
 	<project name="android_device_samsung_d2x"               path="device/samsung/d2x"               remote="LineageOS"  revision="lineage-20" />
-	<project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="LineageOS"  revision="lineage-20" />
+	<project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="LineageOS"  revision="lineage-20" />-->
 	
 	<!--Vendor Tree - You can track from TheMuppets if you want-->
     <project name="proprietary_vendor_samsung"             path="vendor/samsung"                   remote="Linux4"      revision="lineage-20.0" clone-depth="1" />
