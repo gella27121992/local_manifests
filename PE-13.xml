@@ -35,5 +35,5 @@
     
     <!-- Dependenciens -->
     <project name="android_device_samsung_slsi_sepolicy"   path="device/samsung_slsi/sepolicy"     remote="LineageOS"   revision="lineage-20" />
-    <project name="android_hardware_samsung"               path="hardware/samsung"                 remote="Gella27121992"      revision="test" />
+    <project name="android_hardware_samsung"               path="hardware/samsung"                 remote="Gella27121992"      revision="PE13" />
 </manifest>
