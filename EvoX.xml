@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+		
+    <!--remotes -->
+    <remote name="Linux4"     fetch="https://github.com/Linux4" />           
+    <remote name="LineageOS"  fetch="https://github.com/LineageOS" />
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
+    <remote name="Gella27121992"  fetch="https://github.com/gella27121992" />
+
+
+    <!--Device Tree - you can track from LineageOS if you want-->
+    <project name="android_device_samsung_d1"                path="device/samsung/d1"                remote="Gella27121992"  revision="EvoX" />
+    <project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="Gella27121992"  revision="EvoX" />
+    <project name="android_device_samsung_slsi_sepolicy"     path="device/samsung_slsi/sepolicy"     remote="LineageOS"      revision="lineage-20" />
+	
+    <!--Vendor Tree - You can track from TheMuppets if you want-->
+    <project name="proprietary_vendor_samsung"               path="vendor/samsung"                   remote="Linux4"         revision="lineage-20.0" clone-depth="1" />
+    
+    <!--Kernel Tree - You can track from The LineageOS if you want-->
+    <project name="android_kernel_samsung_exynos9820"        path="kernel/samsung/exynos9820"        remote="Linux4"         revision="lineage-20.0" clone-depth="1" />
+    
+    <!-- Dependenciens -->
+    <project name="android_hardware_samsung"                 path="hardware/samsung"                 remote="Gella27121992"  revision="EvoX" clone-depth="1" />
+</manifest>
