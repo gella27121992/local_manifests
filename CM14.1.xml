@@ -5,7 +5,7 @@
     <remote name="gella27121992"   fetch="https://github.com/gella27121992" />
     
 	
-  <project name="android_device_Vodafone_VFD1400" path="device/vodafone/vfd1400" remote="gella27121992" revision="main" />
-  <project name="android_kernel_Vodafone_VFD1400" path="kernel/vodafone/vfd1400" remote="gella27121992" revision="main" />
-	
+  <project name="android_device_vodafone_vfd1400" path="device/vodafone/vfd1400" remote="gella27121992" revision="main" />
+  <project name="android_kernel_vodafone_vfd1400" path="kernel/vodafone/vfd1400" remote="gella27121992" revision="main" />
+  <project name="android_vendor_vodafone_vfd1400" path="vendor/vodafone/vfd1400" remote="gella27121992" revision="main" />	
 </manifest>
